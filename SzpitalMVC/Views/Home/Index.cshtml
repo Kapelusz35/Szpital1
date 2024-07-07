@@ -1,0 +1,740 @@
+﻿@model SzpitalWWW.Data.CMS.Strona
+@{
+    ViewData["Title"] = "Poczekalnia";
+}
+
+<style>
+    @@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  text-decoration: none;
+}
+
+.slider-container {
+  width: 100%;
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  display: none;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.slide-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+.slide-title {
+  width: 100%;
+  max-width: 50rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.slide-desc {
+  width: 100%;
+  max-width: 50rem;
+  color: lightgray;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.slide-btn {
+  color: black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+  transition: ease 0.3s;
+}
+.slide-btn:hover {
+  gap: 1rem;
+}
+
+.slide-number-container {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 5;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: rgba(211, 211, 211, 0.788);
+  letter-spacing: 0.2rem;
+}
+.slide-number-container hr {
+  width: 3rem;
+  transform: rotate(130deg);
+  border-color: rgba(211, 211, 211, 0.788);
+}
+
+.slider-nav {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.slider-nav-btn {
+  cursor: pointer;
+  background-color: rgba(211, 211, 211, 0.226);
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease 0.3s;
+}
+.slider-nav-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.dot-container {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  z-index: 4;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.dot {
+  cursor: pointer;
+  height: 1rem;
+  width: 1rem;
+  background-color: rgba(211, 211, 211, 0.226);
+  border-radius: 50%;
+  display: inline-block;
+  transition: ease 0.3s;
+}
+.active,
+.dot:hover {
+  background-color: white;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+@@keyframes fade {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.buttons{
+    font-size: 22px;
+    margin-top: 2%;
+    margin-left: 4.2%;
+}
+
+.fa:hover{
+    color: darkcyan;
+}
+
+.container{
+  display: flex;
+  flex-flow: column nowrap;
+}
+/*CSS Grid*/
+.section-grid{
+   display: flex; 
+   padding-left: 25px;
+   padding-right: 25px;
+}
+.grid-prod{
+  flex: 1 1 auto;
+  display: flex; 
+  flex-flow: row wrap;  
+}
+.prod-grid{
+  flex: 1 1 25%;
+  margin:2%;
+  padding:12px;
+  border: 2px solid #000;
+}
+
+.prod-grid img{
+  width:100%;
+}
+h3, p{
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.btn{
+    background: darkcyan;
+    border: 1px solid darkcyan;
+    border-radius: 6px;
+    color: white;
+    font-size: 22px;
+    width: 200px;
+    height: 40px;
+    position: right;
+    margin: 10px; 
+    letter-spacing: 1px;
+    display: inline-block;
+}
+.btn:hover{
+    background: white;
+    border: 2px solid darkcyan;
+    border-radius: 6px;
+    color: darkcyan;
+    font-size: 22px;
+    width: 200px;
+    height: 40px;
+    position: right;
+    margin: 10px; 
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: inline-block;
+}
+button{
+  float: right;
+}
+
+/*CSS List*/
+.section-list{
+   display: flex; 
+   padding: 2% 4%; 
+}
+table {
+  width: 100%;
+  margin: 10px 10px;
+  border:2px solid #000;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table tr td {
+  padding: 10px;
+  border-top: 2px solid #000;
+}
+tr td img{
+  width:100%;
+}
+.btn-list{
+    background: darkcyan;
+    border: 1px solid darkcyan;
+    border-radius: 6px;
+    color: white;
+    font-size: 22px;
+    width: 200px;
+    height: 40px;
+    position: right;
+    margin: 10px; 
+    margin-top: 10%;
+    letter-spacing: 1px;
+    display: inline-block;
+    
+}
+.btn-list:hover{
+    background: white;
+    border: 2px solid darkcyan;
+    
+    color: darkcyan;
+
+    margin: 10%; 
+
+}
+button{
+  float: right;
+}
+
+@@media (min-width : 320px) and (max-width : 480px) { 
+  .section-list, .buttons{
+    display: none;
+  }
+}
+
+
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,menu,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,menu,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* BODY STYLES */
+html, body {
+	background: #12171b url(http://104.131.105.180/storage/app/media/patterns/subtle-carbon.png) repeat center top;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+/* IMAGE CAROUSEL */
+.carousel__caption {
+	width: 340px;
+	max-width: 80%;
+	margin: 24px auto 0;
+}
+.carousel__caption p {
+	font: 400 9px "Roboto", sans-serif !important;
+	color: #c1c1c1 !important;
+	text-align: left;
+}
+.carousel__caption a {
+	text-decoration: underline;
+	color: #fff;
+}
+.carousel {
+	position: relative;
+	width: 100%;
+	height: 504px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	transform: translateZ(0px); /* stops flickering */
+}
+.carousel__buffer {
+	display: none;
+}
+.carousel__buffer img {
+	margin: 55px auto 18px;
+	width: 553px;
+	height: 347px;
+}
+.carousel__slide {
+	position: absolute;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+	background: no-repeat center top;
+	background-size: cover;
+	overflow: auto;
+}
+.carousel__slide img {
+	display: block;
+	position: relative;
+	margin: 55px auto 50px;
+	width: 553px;
+	height: 347px;
+	-webkit-box-shadow: 0 0 50px 0 rgba(0,0,0,0.8);
+	-moz-box-shadow: 0 0 50px 0 rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px 0 rgba(0,0,0,0.8);
+}
+
+.carousel__input:checked + .carousel__slide {
+	position: static;
+	opacity: 1;
+}
+.carousel__arrow {
+	position: absolute;
+	display: none;
+	cursor: pointer;
+	background: #191919;
+	top: 210px;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	z-index: 10;
+}
+.carousel__arrow:before {
+	position: absolute;
+	content: "";
+	padding: 8px; /* Arrow size */
+	box-shadow: 1px -1px 0 1px #0072bc inset;
+	-webkit-box-shadow: 2px -2px #0072bc inset;
+	-moz-box-shadow: 2px -2px #0072bc inset;
+	border: solid transparent;
+	border-width: 0 0 2rem 2rem;
+}
+.carousel__arrow--prev {
+	margin-left: -343px;
+}
+.carousel__arrow--prev:before {
+	transform: rotate(45deg);
+	margin: -4px 0 0 -24px;
+}
+.carousel__arrow--next {
+	margin-left: 303px;
+}
+.carousel__arrow--next:before {
+	transform: rotate(225deg);
+	margin: -4px 0 0 15px;
+}
+
+#carousel__slide--1:checked ~ .carousel__arrow--1,
+#carousel__slide--2:checked ~ .carousel__arrow--2,
+#carousel__slide--3:checked ~ .carousel__arrow--3,
+#carousel__slide--4:checked ~ .carousel__arrow--4,
+#carousel__slide--5:checked ~ .carousel__arrow--5 {
+	display: block;
+}
+
+.carousel__bullets {
+	list-style: none;
+	margin: 12px auto -6px;
+	padding: 0;
+	position: absolute;
+	top: 408px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 10;
+}
+.carousel__bullets li {
+	display: inline-block;
+}
+.carousel__bullets--bullet {
+	cursor: pointer;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 4px 0;
+	border-radius: 50%;
+	background: rgba(0,0,0,0);
+	border: 1px solid #6e7c7f;
+}
+
+#carousel__slide--1:checked ~ .carousel__arrow--1 ~ .carousel__bullets li:nth-child(1) .carousel__bullets--bullet,
+#carousel__slide--2:checked ~ .carousel__arrow--2 ~ .carousel__bullets li:nth-child(2) .carousel__bullets--bullet,
+#carousel__slide--3:checked ~ .carousel__arrow--3 ~ .carousel__bullets li:nth-child(3) .carousel__bullets--bullet,
+#carousel__slide--4:checked ~ .carousel__arrow--4 ~ .carousel__bullets li:nth-child(4) .carousel__bullets--bullet,
+#carousel__slide--5:checked ~ .carousel__arrow--5 ~ .carousel__bullets li:nth-child(5) .carousel__bullets--bullet {
+	background: #0072bc;
+	box-shadow: inset 0 0 0 2px #12171b; /* Separates blue dot from border */
+}
+
+@@media screen and (max-width: 690px) {
+	.carousel__buffer {
+		width: 100%;
+		position: relative;
+		display: inline-block;
+		visibility: hidden;
+		z-index: -1;
+		padding-bottom: 120px;
+	}
+	.carousel__buffer img {
+		width: 100%;
+		height: auto;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		margin-top: 0;
+	}
+	.carousel {
+		height: auto;
+		overflow: visible;
+	}
+	.carousel__slide {
+		-webkit-transition: opacity 0s;
+		-moz-transition: opacity 0s;
+		-o-transition: opacity 0s;
+		transition: opacity 0s;
+		position: absolute;
+		top:0;
+		height: auto;
+		background: transparent none !important;
+	}
+	.carousel__slide img {
+		width: 100%;
+		height: auto;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		margin-top: 0;
+	}
+	.carousel__arrow {
+		top: calc(50% - 70px);
+	}
+	.carousel__arrow--prev {
+		margin-left: -48%;
+	}
+	.carousel__arrow--next {
+		margin-left: calc(48% - 40px);
+	}
+	.carousel__bullets {
+		top: auto;
+		bottom: 40px;
+	}
+} 
+</style>
+
+<section class="carousel" >
+	<input class="carousel__input" type="radio" id="carousel__slide--1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+	<div class="carousel__slide" style="background-image:url(/img/img2.jpg)">
+		<img src="~/img/img2.jpg">
+		<div class="carousel__caption">
+			<p>Drzwi ewakuacyjne <br />Obrazek: <a target="_blank" href="/img/img2.jpg">HOSPITAL/CLINICK</a></p>
+		</div>
+	</div>
+
+	<input class="carousel__input" type="radio" id="carousel__slide--2" name="carousel" aria-hidden="true" hidden="">
+	<div class="carousel__slide" style="background-image:url(/img/img3.jpg)">
+		<img src="/img/img3.jpg">
+		<div class="carousel__caption">
+			<p>Clinicka widok noco<br />Obrazek: <a target="_blank" href="~/img/img3.jpg">@@whitehouse</a></p>
+		</div>
+	</div>
+
+	<input class="carousel__input" type="radio" id="carousel__slide--3" name="carousel" aria-hidden="true" hidden="">
+	<div class="carousel__slide" style="background-image:url(/img/img1.jpg)">
+		<img src="/img/img1.jpg">
+		<div class="carousel__caption">
+			<p><br />Obrazek: <a target="_blank" href="/img/img1.jpg">CLINIC</a></p>
+		</div>
+	</div>
+
+	<input class="carousel__input" type="radio" id="carousel__slide--4" name="carousel" aria-hidden="true" hidden="">
+	<div class="carousel__slide" style="background-image:url(/img/img4.jpg)">
+		<img src="~/img/img4.jpg">
+		<div class="carousel__caption">
+			<p>Clinicka<br />Obrazek: <a target="_blank" href="/img/img4.jpg">Clinika</a></p>
+		</div>
+	</div>
+
+	<input class="carousel__input" type="radio" id="carousel__slide--5" name="carousel" aria-hidden="true" hidden="">
+	<div class="carousel__slide" style="background-image:url(/img/img5.jpg)">
+		<img src="~/img/img5.jpg">
+		<div class="carousel__caption">
+			<p>Clinika<br />Obrazek: <a target="_blank" href="/img/img5.jpg">Clinika</a></p>
+		</div>
+	</div>
+
+	<!-- ARROWS -->
+	<label for="carousel__slide--5" class="carousel__arrow carousel__arrow--prev carousel__arrow--1"></label>
+	<label for="carousel__slide--5" class="carousel__arrow carousel__arrow--next carousel__arrow--4"></label>
+	<label for="carousel__slide--4" class="carousel__arrow carousel__arrow--prev carousel__arrow--5"></label>
+	<label for="carousel__slide--4" class="carousel__arrow carousel__arrow--next carousel__arrow--3"></label>
+	<label for="carousel__slide--3" class="carousel__arrow carousel__arrow--prev carousel__arrow--4"></label>
+	<label for="carousel__slide--3" class="carousel__arrow carousel__arrow--next carousel__arrow--2"></label>
+	<label for="carousel__slide--2" class="carousel__arrow carousel__arrow--prev carousel__arrow--3"></label>
+	<label for="carousel__slide--2" class="carousel__arrow carousel__arrow--next carousel__arrow--1"></label>
+	<label for="carousel__slide--1" class="carousel__arrow carousel__arrow--prev carousel__arrow--2"></label>
+	<label for="carousel__slide--1" class="carousel__arrow carousel__arrow--next carousel__arrow--5"></label>
+
+	<!-- BULLETS -->
+	<ol class="carousel__bullets">
+		<li>
+			<label for="carousel__slide--1" class="carousel__bullets--bullet"></label>
+		</li>
+		<li>
+			<label for="carousel__slide--2" class="carousel__bullets--bullet"></label>
+		</li>
+		<li>
+			<label for="carousel__slide--3" class="carousel__bullets--bullet"></label>
+		</li>
+		<li>
+			<label for="carousel__slide--4" class="carousel__bullets--bullet"></label>
+		</li>
+		<li>
+			<label for="carousel__slide--5" class="carousel__bullets--bullet"></label>
+		</li>
+	</ol>
+</section>
+
+
+<h1 class="text-white">Lista Lekarzy</h1>
+
+<!--Buttons of grid and list-->
+ <div class="buttons">
+<i class="fa fa-th-large"  id="showdiv1" aria-hidden="true"></i> &nbsp;  <i class="fa fa-th-list" id="showdiv2" aria-hidden="true"></i> 
+</div>
+
+<div class="container text-white" style="padding-bottom: 100px" >
+  <!--Product Grid-->
+  <div id="div1">
+    <section class="section-grid">
+    <div class="grid-prod">
+				<div class="prod-grid">
+					<img src="~/img/doktor7.png" alt="kalita">
+                    <h3> Aleksandra Tyton </h3>
+                    <p>Lekarz Pediatra</p>
+ <button class="btn"> Zarezerwuj <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+     </div>
+				<div class="prod-grid">
+					<img src="~/img/doktor8.png" alt="kalita">
+       <h3> Anna Czosnek </h3>    
+            <p>Lekarz Dentysta</p>
+ <button class="btn"> Zarezerwuj <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+     </div>
+				<div class="prod-grid">
+					<img src="~/img/doktor6.png" alt="kalita">
+       <h3> Janusz Klucz </h3>    
+            <p>Lekarz Ginekolog</p>
+ <button class="btn"> Zarezerwuj <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+     </div>
+				<div class="prod-grid">
+					<img src="~/img/doktor2.png" alt="kalita">
+            <p>Lekarz Dentysta</p>
+ <button class="btn"> Zarezerwuj <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+     </div>
+      <div class="prod-grid">
+		  <img src="~/img/doktor9.png" alt="kalita">
+       <h3> Jadwiga Krol </h3>    
+            <p>Lekarz Anastezjolog</p>
+ <button class="btn"> Zarezerwuj <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+     </div>
+				<div class="prod-grid">
+					<img src="~/img/doktor3.jpg" alt="kalita">
+            <p>Lekarz Ratownik</p>
+ <button class="btn"> Zarezerwuj <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+     </div>
+    </div>
+     </section> 
+  </div>
+ <!--Product List-->         
+  <div id="div2" style="display:none;">
+    <section class="section-list">
+      <table>
+        <tr>
+          <td><img src="https://images.contentful.com/3h0qt25be5vd/1ojeAoISmMSKysKIOKEWGi/22b6344383ffabc7e250f1eed88287ae/Brew_Guide-KalitaWave-Step03.jpg?w=960&h=640&fm=jpg&q=70" alt="kalita"><td>
+          <td>  <h3>Ph'nglui mglw'nafh. </h3>    
+            <p>Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.</p>
+           <button class="btn-list"> Buy <i class="fa fa-shopping-cart" aria-hidden="true"></i></button></td>
+        </tr>
+        <tr>
+          <td width="30%"><img src="https://images.contentful.com/3h0qt25be5vd/1ojeAoISmMSKysKIOKEWGi/22b6344383ffabc7e250f1eed88287ae/Brew_Guide-KalitaWave-Step03.jpg?w=960&h=640&fm=jpg&q=70" alt="kalita"><td>
+          <td>  <h3>Ph'nglui mglw'nafh. </h3>    
+            <p>Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.</p>
+           <button class="btn-list"> Buy <i class="fa fa-shopping-cart" aria-hidden="true"></i></button></td>
+        </tr>
+        <tr>
+          <td width="30%"><img src="https://images.contentful.com/3h0qt25be5vd/1ojeAoISmMSKysKIOKEWGi/22b6344383ffabc7e250f1eed88287ae/Brew_Guide-KalitaWave-Step03.jpg?w=960&h=640&fm=jpg&q=70" alt="kalita"><td>
+          <td>  <h3>Ph'nglui mglw'nafh. </h3>    
+            <p>Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.</p>
+           <button class="btn-list"> Buy <i class="fa fa-shopping-cart" aria-hidden="true"></i></button></td>
+        </tr>
+        <tr>
+          <td width="30%"><img src="https://images.contentful.com/3h0qt25be5vd/1ojeAoISmMSKysKIOKEWGi/22b6344383ffabc7e250f1eed88287ae/Brew_Guide-KalitaWave-Step03.jpg?w=960&h=640&fm=jpg&q=70" alt="kalita"><td>
+          <td>  <h3>Ph'nglui mglw'nafh. </h3>    
+            <p>Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.</p>
+           <button class="btn-list"> Buy <i class="fa fa-shopping-cart" aria-hidden="true"></i></button></td>
+        </tr>
+        <tr>
+          <td width="30%"><img src="https://images.contentful.com/3h0qt25be5vd/1ojeAoISmMSKysKIOKEWGi/22b6344383ffabc7e250f1eed88287ae/Brew_Guide-KalitaWave-Step03.jpg?w=960&h=640&fm=jpg&q=70" alt="kalita"><td>
+          <td>  <h3>Ph'nglui mglw'nafh. </h3>    
+            <p>Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.</p>
+           <button class="btn-list"> Buy <i class="fa fa-shopping-cart" aria-hidden="true"></i></button></td>
+        </tr>
+        <tr>
+          <td width="30%"><img src="https://images.contentful.com/3h0qt25be5vd/1ojeAoISmMSKysKIOKEWGi/22b6344383ffabc7e250f1eed88287ae/Brew_Guide-KalitaWave-Step03.jpg?w=960&h=640&fm=jpg&q=70" alt="kalita"><td>
+          <td>  <h3>Ph'nglui mglw'nafh. </h3>    
+            <p>Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.</p>
+           <button class="btn-list"> Buy <i class="fa fa-shopping-cart" aria-hidden="true"></i></button></td>
+        </tr>
+      </table>
+     </section> 
+  </div>
+</div>  
+    
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script>
+    let slideIndex = 1;
+    const slides = document.getElementsByClassName("slide");
+    const dots = document.getElementsByClassName("dot");
+
+    // Function to show a specific slide
+    function showSlides(n) {
+        if (n > slides.length) {
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = slides.length;
+        }
+
+        // Hide all slides
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        // Remove the "active" class from all dots
+        for (let i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+
+        // Display the current slide and mark its corresponding dot as active
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+
+    // Function to advance to the next slide
+    function plusSlides(n) {
+        showSlides((slideIndex += n));
+    }
+
+    // Function to navigate to a specific slide
+    function currentSlide(n) {
+        showSlides((slideIndex = n));
+    }
+
+    // Automatically advance to the next slide every 3 seconds (3000 milliseconds)
+    setInterval(function () {
+        plusSlides(1);
+    }, 3000);
+
+    // Initialize the slider
+    showSlides(slideIndex);
+
+    $(function () {
+        $('#showdiv1').click(function () {
+            $('div[id^=div]').hide();
+            $('#div1').show();
+        });
+        $('#showdiv2').click(function () {
+            $('div[id^=div]').hide();
+            $('#div2').show();
+        });
+
+    })
+</script>
+
+

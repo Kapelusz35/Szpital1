@@ -1,0 +1,54 @@
+﻿@model SzpitalWWW.Data.Hour.Godziny
+@{
+    ViewData["Title"] = "Poczekalnia";
+}
+
+
+<hr />
+
+<div class="row d-flex align-items-center justify-content-center" style="margin: 0px">
+    <div class="col-md-4">
+        <form asp-action="Rejestracja" enctype="multipart/form-data" id="FormUpload" class="was-validated">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating mb-3">
+                <input asp-for="NazwaLekarza" type="text" minlength="8" maxlength="20" class="form-control" placeholder="Imię i Nazwisko" required />
+                <div class="valid-feedback">
+                    OK
+                </div>
+                <div class="invalid-feedback">
+                    Za mało znaków
+                </div>
+                <label asp-for="NazwaLekarza" class="form-label">Imie </label>
+                <span asp-validation-for="NazwaLekarza" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea rows="4" asp-for="GodzinyPracy" type="text" class="form-control" placeholder="Godziny Pracy " required></textarea>
+                <div class="valid-feedback">
+                    OK
+                </div>
+                <div class="invalid-feedback">
+                    Opisz
+                </div>
+                <label asp-for="GodzinyPracy" class="control-label">Godziny Pracy </label>
+                <span asp-validation-for="GodzinyPracy" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="pokoj" type="number" class="form-control" placeholder="2" min="2" max="30" required />
+                <div class="valid-feedback">
+                    OK
+                </div>
+                <div class="invalid-feedback">
+                    Za mało (2) lub za dużo (30)
+                </div>
+                <label asp-for="pokoj" class="control-label">Numer Pokoju</label>
+                <span asp-validation-for="pokoj" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Dodaj rezerwacje" class="btn btn-primary" />
+                <a class="btn btn-success" href="@Url.Action("Index", "Home")">Powrót</a>
+            </div>
+        </form>
+
+    </div>
+</div>

@@ -1,0 +1,48 @@
+﻿@model SzpitalWWW.Data.Information.Informacje
+@{
+    ViewData["Title"] = "Poczekalnia";
+}
+
+
+<hr />
+
+<div class="row d-flex align-items-center justify-content-center" style="margin: 0px">
+    <div class="col-md-4">
+        <form asp-action="Rejestracja" enctype="multipart/form-data" id="FormUpload" class="was-validated">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating mb-3">
+                <input asp-for="Name" type="text" minlength="8" maxlength="20" class="form-control" placeholder="Nazwa" required />
+                <div class="valid-feedback">
+                    OK
+                </div>
+                <div class="invalid-feedback">
+                    Nazwa
+                </div>
+                <label asp-for="Name" class="form-label"> Nazwa </label>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Description" type="number" class="form-control" placeholder="2" min="2" max="30" required />
+                <div class="valid-feedback">
+                    OK
+                </div>
+                <div class="invalid-feedback">
+                    Za mało (2) lub za dużo (30)
+                </div>
+                <label asp-for="Description" class="control-label"> Opis </label>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+
+
+
+
+
+            <div class="form-group">
+                <input type="submit" value="Dodaj rezerwacje" class="btn btn-primary" />
+                <a class="btn btn-success" href="@Url.Action("Index", "Home")">Powrót</a>
+            </div>
+        </form>
+
+    </div>
+</div>

@@ -1,0 +1,779 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SzpitalMVC
+build_property.RootNamespace = SzpitalMVC
+build_property.ProjectDir = E:\ProjektProgramowanieZaawansowane\sZPITAL\SzpitalMVC\SzpitalMVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\ProjektProgramowanieZaawansowane\sZPITAL\SzpitalMVC\SzpitalMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XEFjY2Vzc0RlbmllZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XENvbmZpcm1FbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XENvbmZpcm1FbWFpbENoYW5nZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XEV4dGVybmFsTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XEZvcmdvdFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XEZvcmdvdFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XExvY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XExvZ2luV2l0aDJmYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XExvZ2luV2l0aFJlY292ZXJ5Q29kZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XExvZ291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxEZWxldGVQZXJzb25hbERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxEaXNhYmxlMmZhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxEb3dubG9hZFBlcnNvbmFsRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxFbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxFbmFibGVBdXRoZW50aWNhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxFeHRlcm5hbExvZ2lucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxHZW5lcmF0ZVJlY292ZXJ5Q29kZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxQZXJzb25hbERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxSZXNldEF1dGhlbnRpY2F0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxTZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxTaG93UmVjb3ZlcnlDb2Rlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxUd29GYWN0b3JBdXRoZW50aWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxfTWFuYWdlTmF2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XE1hbmFnZVxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XFJlZ2lzdGVyQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XFJlc2VuZEVtYWlsQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XFJlc2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XFJlc2V0UGFzc3dvcmRDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XF9TdGF0dXNNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xBY2NvdW50XF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xBcmVhc1xJZGVudGl0eVxQYWdlc1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Aktualnosc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xBa3R1YWxub3NjXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Aktualnosc/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xBa3R1YWxub3NjXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Aktualnosc/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xBa3R1YWxub3NjXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Aktualnosc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xBa3R1YWxub3NjXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Aktualnosc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xBa3R1YWxub3NjXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/History/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xIaXN0b3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Home/Dodaj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xIb21lXERvZGFqLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Home/Kontakt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xIb21lXEtvbnRha3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Home/OFirmie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xIb21lXE9GaXJtaWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Home/Rejestracja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xIb21lXFJlamVzdHJhY2phLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Hour/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xIb3VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Information/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xJbmZvcm1hdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Info/RezerwcjaPrywatnie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xJbmZvXFJlemVyd2NqYVByeXdhdG5pZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/NFZ/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xORlpcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Aktualnosc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xSb2R6YWpcQWt0dWFsbm9zY1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Aktualnosc/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xSb2R6YWpcQWt0dWFsbm9zY1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Aktualnosc/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xSb2R6YWpcQWt0dWFsbm9zY1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Aktualnosc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xSb2R6YWpcQWt0dWFsbm9zY1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Aktualnosc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xSb2R6YWpcQWt0dWFsbm9zY1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xSb2R6YWpcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xSb2R6YWpcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xSb2R6YWpcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xSb2R6YWpcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xSb2R6YWpcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xSb2R6YWpcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Home/Rejestracja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xSb2R6YWpcSG9tZVxSZWplc3RyYWNqYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xSb2R6YWpcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Shared/Aktualnosci.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xTaGFyZWRcQWt0dWFsbm9zY2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Shared/Odnosniki.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xTaGFyZWRcT2Rub3NuaWtpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Shared/RodzajeMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xTaGFyZWRcUm9kemFqZU1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xTaGFyZWRcX0xvZ2luUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Shared/_SklepLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xTaGFyZWRcX1NrbGVwTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Sklep/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xTa2xlcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Strona/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xTdHJvbmFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Strona/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xTdHJvbmFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Strona/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xTdHJvbmFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Strona/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xTdHJvbmFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Strona/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xTdHJvbmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Towar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xUb3dhclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Towar/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xUb3dhclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Towar/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xUb3dhclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Towar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xUb3dhclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Towar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xUb3dhclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Aktualnosc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xBa3R1YWxub3NjXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Aktualnosc/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xBa3R1YWxub3NjXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Aktualnosc/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xBa3R1YWxub3NjXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Aktualnosc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xBa3R1YWxub3NjXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Aktualnosc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xBa3R1YWxub3NjXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/History/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xIaXN0b3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Home/Dodaj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xIb21lXERvZGFqLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Home/Kontakt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xIb21lXEtvbnRha3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Home/OFirmie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xIb21lXE9GaXJtaWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Home/Rejestracja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xIb21lXFJlamVzdHJhY2phLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Hour/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xIb3VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Information/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xJbmZvcm1hdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Info/RezerwcjaPrywatnie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xJbmZvXFJlemVyd2NqYVByeXdhdG5pZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/NFZ/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xORlpcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Rodzaj/Aktualnosc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xSb2R6YWpcQWt0dWFsbm9zY1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Rodzaj/Aktualnosc/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xSb2R6YWpcQWt0dWFsbm9zY1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Rodzaj/Aktualnosc/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xSb2R6YWpcQWt0dWFsbm9zY1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Rodzaj/Aktualnosc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xSb2R6YWpcQWt0dWFsbm9zY1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Rodzaj/Aktualnosc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xSb2R6YWpcQWt0dWFsbm9zY1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Rodzaj/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xSb2R6YWpcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Rodzaj/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xSb2R6YWpcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Rodzaj/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xSb2R6YWpcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Rodzaj/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xSb2R6YWpcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Rodzaj/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xSb2R6YWpcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Rodzaj/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xSb2R6YWpcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Rodzaj/Home/Rejestracja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xSb2R6YWpcSG9tZVxSZWplc3RyYWNqYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Rodzaj/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xSb2R6YWpcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Shared/Aktualnosci.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xTaGFyZWRcQWt0dWFsbm9zY2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Shared/Odnosniki.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xTaGFyZWRcT2Rub3NuaWtpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Shared/RodzajeMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xTaGFyZWRcUm9kemFqZU1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xTaGFyZWRcX0xvZ2luUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Shared/_SklepLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xTaGFyZWRcX1NrbGVwTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Sklep/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xTa2xlcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Strona/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xTdHJvbmFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Strona/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xTdHJvbmFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Strona/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xTdHJvbmFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Strona/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xTdHJvbmFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Strona/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xTdHJvbmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Towar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xUb3dhclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Towar/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xUb3dhclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Towar/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xUb3dhclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Towar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xUb3dhclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Towar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xUb3dhclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Aktualnosc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0dWFsbm9zY1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Aktualnosc/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0dWFsbm9zY1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Aktualnosc/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0dWFsbm9zY1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Aktualnosc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0dWFsbm9zY1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Aktualnosc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0dWFsbm9zY1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/History/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Home/Dodaj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb2Rhai5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Home/Kontakt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLb250YWt0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Home/OFirmie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPRmlybWllLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Home/Rejestracja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWplc3RyYWNqYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Hour/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91clxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Information/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Info/RezerwcjaPrywatnie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xSZXplcndjamFQcnl3YXRuaWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/NFZ/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkZaXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Aktualnosc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXEFrdHVhbG5vc2NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Aktualnosc/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXEFrdHVhbG5vc2NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Aktualnosc/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXEFrdHVhbG5vc2NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Aktualnosc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXEFrdHVhbG5vc2NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Aktualnosc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXEFrdHVhbG5vc2NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Home/Rejestracja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXEhvbWVcUmVqZXN0cmFjamEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Rodzaj/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9kemFqXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Shared/Aktualnosci.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFrdHVhbG5vc2NpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Shared/Odnosniki.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9kbm9zbmlraS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Shared/RodzajeMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJvZHphamVNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Shared/_SklepLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ta2xlcExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Sklep/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsZXBcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Strona/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Ryb25hXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Strona/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Ryb25hXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Strona/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Ryb25hXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Strona/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Ryb25hXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Strona/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Ryb25hXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Towar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG93YXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Towar/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG93YXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Towar/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG93YXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Towar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG93YXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Towar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG93YXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbE1WQ1xWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-fzjjdv9nf6
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/SzpitalWWW/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U3pwaXRhbFdXV1xWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-z1c2r0awlp
+
+[E:/ProjektProgramowanieZaawansowane/sZPITAL/SzpitalMVC/SzpitalMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zhciu9f9zq

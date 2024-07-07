@@ -1,0 +1,97 @@
+﻿@model Firma.Data.Data.Home.Wizyta
+@{
+    ViewData["Title"] = "Poczekalnia";
+}
+
+
+
+<h1 class="d-flex align-items-center justify-content-center">Zarezerwuj wizytę</h1>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
+
+<style>
+
+    .ui-autocomplete {
+        overflow: auto;
+        max-height: 150px;
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        z-index: 999;
+    }
+</style>
+
+
+
+<hr />
+
+<div class="row d-flex align-items-center justify-content-center" style="margin: 0px">
+    <div class="col-md-4">
+        <form asp-action="Dodaj" enctype="multipart/form-data" id="FormUpload" class="was-validated">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating mb-3">
+                <input asp-for="OfferName" type="text" minlength="8" maxlength="20" class="form-control" placeholder="Imię i Nazwisko" required />
+                <div class="valid-feedback">
+                    OK
+                </div>
+                <div class="invalid-feedback">
+                    Za mało znaków
+                </div>
+                <label asp-for="OfferName" class="form-label">Nazwa Ogłoszenia</label>
+                <span asp-validation-for="OfferName" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+  
+                <input asp-for="DestinationCity" id="Name" type="text" class="form-control" placeholder="Miejscowość" required>
+                <label asp-for="DestinationCity" class="control-label">Miejscowość</label>
+                <div class="valid-feedback">
+                    OK
+                </div>
+                <div class="invalid-feedback">
+                    Brak miejscowości w bazie
+                </div>
+                <span asp-validation-for="DestinationCity" class="text-danger"></span>
+     
+            </div>
+
+            <div class="form-floating mb-3">
+                <textarea rows="4" asp-for="Description" type="text" class="form-control" placeholder="Opis" required></textarea>
+                <div class="valid-feedback">
+                    OK
+                </div>
+                <div class="invalid-feedback">
+                    Opisz 
+                </div>
+                <label asp-for="Description" class="control-label">Opis</label>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="phoneNumber" type="number" class="form-control" placeholder="2" min="2" max="30" required />
+                <div class="valid-feedback">
+                    OK
+                </div>
+                <div class="invalid-feedback">
+                    Za mało (2) lub za dużo (30)
+                </div>
+                <label asp-for="phoneNumber" class="control-label">Numer Telefonu</label>
+                <span asp-validation-for="phoneNumber" class="text-danger"></span>
+            </div>
+
+
+
+
+   
+
+            <div class="form-group">
+                <input type="submit" value="Dodaj rezerwacje" class="btn btn-primary" />
+                <a class="btn btn-success" href="@Url.Action("Index", "Home")">Powrót</a>
+            </div>
+        </form>
+
+    </div>
+</div>

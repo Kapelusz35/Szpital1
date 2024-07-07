@@ -1,0 +1,26 @@
+﻿@model IEnumerable<SzpitalWWW.Data.Sklep.Towar>
+@{
+    ViewData["Title"] = "Sklep";
+    Layout = "~/Views/Shared/_SklepLayout.cshtml";
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Foto</th>
+            <th scope="col">Nazwa</th>
+            <th scope="col">Cena</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>Zdjecie</td>
+                <td>@item.Nazwa</td>
+                <td>@item.Cena</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
